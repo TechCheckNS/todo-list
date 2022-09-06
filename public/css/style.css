@@ -1,0 +1,115 @@
+/* font input and completed/not  */
+
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script:400|Open+Sans:300,300italic,600,600italic,800");
+
+
+
+.completed{
+    text-decoration: line-through;
+    color: #c81919;
+    margin: 0, 0, 0 , 40px;
+}
+
+
+.notCompleted{
+    text-decoration: underline;
+}
+
+
+/* font sizing/coloring/margins */
+
+html, body,iframe, h1, h2, h3, h4, h5, h6, p,footer, header,section {
+	margin: 20, 20;
+	padding: 0;
+	border: 0 ;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+
+
+h1, h2, h3 {
+		color: #454545;
+		font-weight: 800;
+	}
+
+h2 {
+		font-size: 2.25em;
+		margin: 0 0 1.1em 0;
+		line-height: 1em;
+	}
+
+	h3 {
+		font-size: 1.35em;
+		margin: 0 0 1em 0;
+	}
+
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+
+/* will need to input image below of some random place in italy */
+
+	body {
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url('');
+		background-color: #f7f7f7;
+		background-position: top left, top left;
+		background-repeat: repeat-x, repeat;
+		background-size: 100% 30em, auto;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13pt;
+		color: #696969;
+		font-weight: 300;
+		line-height: 2.25em;
+	}
+
+
+
+/* IMAGE PROPERTIES BELOW */
+
+.image {
+		display: inline-block;
+		outline: 0;
+	}
+
+		.image img {
+			display: block;
+			width: 100%;
+			border-radius: 8px;
+		}
+
+		.image.fit {
+			display: block;
+			width: 100%;
+		}
+
+		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2.5em 0;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.centered {
+			display: block;
+			margin: 0 0 2.5em 0;
+		}
+
+			.image.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
+
+
+
